@@ -42,19 +42,16 @@
             <groupId>net.kyori</groupId>
             <artifactId>adventure-api</artifactId>
             <version>4.25.0</version>
-            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>net.kyori</groupId>
             <artifactId>adventure-platform-bukkit</artifactId>
             <version>4.4.1</version>
-            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>net.kyori</groupId>
             <artifactId>adventure-text-minimessage</artifactId>
             <version>4.25.0</version>
-            <scope>provided</scope>
         </dependency>
     </dependencies>
 
@@ -79,7 +76,7 @@
                 <configuration>
                     <relocations>
                         <relocation>
-                            <pattern>net.kyori.adventure</pattern>
+                            <pattern>net.kyori</pattern>
                             <shadedPattern>com.bentahsin.languagemanager.libs.adventure</shadedPattern>
                         </relocation>
                     </relocations>
